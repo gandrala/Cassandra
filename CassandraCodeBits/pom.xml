@@ -12,3 +12,4 @@
 		</dependency>
 	</dependencies>
 </project>
+<!-- No need to add Guava jars -->
