@@ -46,10 +46,5 @@ public enum CassandraConnector
 			cluster.close();
 		log.info("Shutting down ended");
 	}
-	public static void main(String[] agrs)
-	{
-		CassandraConnector.INSTANCE.getSession();
-		CassandraConnector.INSTANCE.shutdown();
-		
-	}
+	
 }
